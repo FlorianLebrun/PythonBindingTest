@@ -21,6 +21,8 @@
 #ifndef	_JIT_DEFS_H
 #define	_JIT_DEFS_H
 
+#include <stdint.h>
+
 #ifdef	__cplusplus
 extern	"C" {
 #endif
@@ -31,16 +33,14 @@ extern	"C" {
 #define JIT_EXPORT_DATA extern
 #endif
 
-
-
-typedef char jit_sbyte;
-typedef unsigned char jit_ubyte;
-typedef short jit_short;
-typedef unsigned short jit_ushort;
-typedef int jit_int;
-typedef unsigned int jit_uint;
-typedef int jit_nint;
-typedef unsigned int jit_nuint;
+typedef int8_t jit_sbyte;
+typedef uint8_t jit_ubyte;
+typedef int16_t jit_short;
+typedef uint16_t jit_ushort;
+typedef int32_t jit_int;
+typedef uint32_t jit_uint;
+typedef intptr_t jit_nint;
+typedef uintptr_t jit_nuint;
 #if defined(__cplusplus) && defined(__GNUC__)
 typedef long long jit_long;
 typedef unsigned long long jit_ulong;

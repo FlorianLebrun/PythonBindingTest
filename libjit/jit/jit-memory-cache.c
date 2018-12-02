@@ -643,7 +643,7 @@ _jit_cache_alloc_data(jit_cache_t cache, unsigned long size, unsigned long align
 	   overlap with the function code possibly being written at the bottom
 	   of the free region */
 	ptr = cache->free_end - size;
-	ptr = (unsigned char *) (((jit_nuint) ptr) & ~(align - 1));
+	ptr = (unsigned char *) (((jit_nuint) ptr) & ~((jit_nuint)align - 1));
 	if(ptr < cache->free_start)
 	{
 		/* When we aligned the block, it caused an overflow */
