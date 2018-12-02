@@ -157,17 +157,31 @@ typedef struct
 } _jit_va_list;
 
 /* Registers used for INTEGER arguments */
+#ifdef _WIN32
+static int _jit_word_arg_regs[] = {
+                   X86_64_REG_RCX, X86_64_REG_RDX,
+                   X86_64_REG_R8, X86_64_REG_R9 };
+#define _jit_num_word_regs	4
+#else
 static int _jit_word_arg_regs[] = {X86_64_REG_RDI, X86_64_REG_RSI,
 								   X86_64_REG_RDX, X86_64_REG_RCX,
 								   X86_64_REG_R8, X86_64_REG_R9};
 #define _jit_num_word_regs	6
+#endif
 
 /* Registers used for float arguments */
+#ifdef _WIN32
+static int _jit_float_arg_regs[] = { 
+                  X86_64_REG_XMM0, X86_64_REG_XMM1,
+                  X86_64_REG_XMM2, X86_64_REG_XMM3 };
+#define _jit_num_float_regs	4
+#else
 static int _jit_float_arg_regs[] = {X86_64_REG_XMM0, X86_64_REG_XMM1,
 									X86_64_REG_XMM2, X86_64_REG_XMM3,
 									X86_64_REG_XMM4, X86_64_REG_XMM5,
 									X86_64_REG_XMM6, X86_64_REG_XMM7};
 #define _jit_num_float_regs	8
+#endif
 
 /* Registers used for returning INTEGER values */
 static int _jit_word_return_regs[] = {X86_64_REG_RAX, X86_64_REG_RDX};
@@ -209,6 +223,14 @@ _jit_init_backend(void)
 		X86_64_REG_R14, X86_64_REG_R15);
 
 	/* register class with all call clobbered registers */
+#ifdef _WIN32
+  x86_64_creg = _jit_regclass_create(
+    "creg", JIT_REG_WORD | JIT_REG_LONG, 7,
+    X86_64_REG_RAX, X86_64_REG_RCX,
+    X86_64_REG_RDX, X86_64_REG_R8,
+    X86_64_REG_R9, X86_64_REG_R10,
+    X86_64_REG_R11);
+#else
 	x86_64_creg = _jit_regclass_create(
 		"creg", JIT_REG_WORD | JIT_REG_LONG, 9,
 		X86_64_REG_RAX, X86_64_REG_RCX,
@@ -216,6 +238,7 @@ _jit_init_backend(void)
 		X86_64_REG_RDI, X86_64_REG_R8,
 		X86_64_REG_R9, X86_64_REG_R10,
 		X86_64_REG_R11);
+#endif
 
 	/* r egister class for divisors */
 	x86_64_dreg = _jit_regclass_create(
@@ -255,6 +278,16 @@ _jit_init_backend(void)
 		X86_64_REG_ST4, X86_64_REG_ST5,
 		X86_64_REG_ST6, X86_64_REG_ST7);
 
+#ifdef _WIN32
+  // Disable XMM6:XMM15 to avoid cloberring (Microsoft x64 convention)
+  // TODO: manage xmm registers preservation
+  x86_64_xreg = _jit_regclass_create(
+    "xreg", JIT_REG_FLOAT32 | JIT_REG_FLOAT64, 6,
+    X86_64_REG_XMM0, X86_64_REG_XMM1,
+    X86_64_REG_XMM2, X86_64_REG_XMM3,
+    X86_64_REG_XMM4, X86_64_REG_XMM5); 
+}
+#else
 	x86_64_xreg = _jit_regclass_create(
 		"xreg", JIT_REG_FLOAT32 | JIT_REG_FLOAT64, 16,
 		X86_64_REG_XMM0, X86_64_REG_XMM1,
@@ -266,6 +299,7 @@ _jit_init_backend(void)
 		X86_64_REG_XMM12, X86_64_REG_XMM13,
 		X86_64_REG_XMM14, X86_64_REG_XMM15);
 }
+#endif
 
 int
 _jit_opcode_is_supported(int opcode)

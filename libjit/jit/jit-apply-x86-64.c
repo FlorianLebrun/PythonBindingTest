@@ -678,6 +678,11 @@ _jit_classify_param(jit_param_passing_t *passing,
 					param->un.reg_info[0].reg = passing->word_regs[passing->word_index];
 					param->un.reg_info[0].value = param->value;
 					++(passing->word_index);
+
+#ifdef _WIN32
+          /* Allocate the shadow space (spilling space) in the arg passing frame */
+          passing->stack_size += 8; // It have size of the register
+#endif
 				}
 				else
 				{
@@ -701,6 +706,11 @@ _jit_classify_param(jit_param_passing_t *passing,
 					param->un.reg_info[0].reg =	passing->float_regs[passing->float_index];
 					param->un.reg_info[0].value = param->value;
 					++(passing->float_index);
+
+#ifdef _WIN32
+          /* Allocate the shadow space (spilling space) in the arg passing frame */
+          passing->stack_size += 8; // It have size of the register
+#endif
 				}
 				else
 				{
