@@ -1,12 +1,8 @@
-from hello import hello, Classy
+from python_toy import python_toy
 import os
 
 try:
-  c = Classy(4)
-  print(c.goody)
-  print(c.miami())
-  print(c.new_york)
-  print(hello("tt"))
+  print(python_toy("tt"))
 except Exception as e:
   print("Unexpected error:", e)
 

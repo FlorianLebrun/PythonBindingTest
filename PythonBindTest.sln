@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjit", "libjit\libjit.vcxproj", "{7413F5EF-B0C8-47D2-9F13-671C10E4A2B0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "python_toy", "python_toy\python_toy.vcxproj", "{E2F7095B-E2FC-488B-AE45-7F313CC79C2D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjit-test", "libjit-test\libjit-test.vcxproj", "{E1CA5AF1-F71E-4FF4-B328-1BCECB50BEDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjit", "libjit\libjit.vcxproj", "{32985C55-D4C9-4737-965C-28350EE34354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,30 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7413F5EF-B0C8-47D2-9F13-671C10E4A2B0}.Debug|x64.ActiveCfg = Debug|x64
-		{7413F5EF-B0C8-47D2-9F13-671C10E4A2B0}.Debug|x64.Build.0 = Debug|x64
-		{7413F5EF-B0C8-47D2-9F13-671C10E4A2B0}.Debug|x86.ActiveCfg = Debug|Win32
-		{7413F5EF-B0C8-47D2-9F13-671C10E4A2B0}.Debug|x86.Build.0 = Debug|Win32
-		{7413F5EF-B0C8-47D2-9F13-671C10E4A2B0}.Release|x64.ActiveCfg = Release|x64
-		{7413F5EF-B0C8-47D2-9F13-671C10E4A2B0}.Release|x64.Build.0 = Release|x64
-		{7413F5EF-B0C8-47D2-9F13-671C10E4A2B0}.Release|x86.ActiveCfg = Release|Win32
-		{7413F5EF-B0C8-47D2-9F13-671C10E4A2B0}.Release|x86.Build.0 = Release|Win32
+		{E2F7095B-E2FC-488B-AE45-7F313CC79C2D}.Debug|x64.ActiveCfg = Debug|x64
+		{E2F7095B-E2FC-488B-AE45-7F313CC79C2D}.Debug|x64.Build.0 = Debug|x64
+		{E2F7095B-E2FC-488B-AE45-7F313CC79C2D}.Debug|x86.ActiveCfg = Debug|Win32
+		{E2F7095B-E2FC-488B-AE45-7F313CC79C2D}.Debug|x86.Build.0 = Debug|Win32
+		{E2F7095B-E2FC-488B-AE45-7F313CC79C2D}.Release|x64.ActiveCfg = Release|x64
+		{E2F7095B-E2FC-488B-AE45-7F313CC79C2D}.Release|x64.Build.0 = Release|x64
+		{E2F7095B-E2FC-488B-AE45-7F313CC79C2D}.Release|x86.ActiveCfg = Release|Win32
+		{E2F7095B-E2FC-488B-AE45-7F313CC79C2D}.Release|x86.Build.0 = Release|Win32
+		{E1CA5AF1-F71E-4FF4-B328-1BCECB50BEDD}.Debug|x64.ActiveCfg = Debug|x64
+		{E1CA5AF1-F71E-4FF4-B328-1BCECB50BEDD}.Debug|x64.Build.0 = Debug|x64
+		{E1CA5AF1-F71E-4FF4-B328-1BCECB50BEDD}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1CA5AF1-F71E-4FF4-B328-1BCECB50BEDD}.Debug|x86.Build.0 = Debug|Win32
+		{E1CA5AF1-F71E-4FF4-B328-1BCECB50BEDD}.Release|x64.ActiveCfg = Release|x64
+		{E1CA5AF1-F71E-4FF4-B328-1BCECB50BEDD}.Release|x64.Build.0 = Release|x64
+		{E1CA5AF1-F71E-4FF4-B328-1BCECB50BEDD}.Release|x86.ActiveCfg = Release|Win32
+		{E1CA5AF1-F71E-4FF4-B328-1BCECB50BEDD}.Release|x86.Build.0 = Release|Win32
+		{32985C55-D4C9-4737-965C-28350EE34354}.Debug|x64.ActiveCfg = Debug|x64
+		{32985C55-D4C9-4737-965C-28350EE34354}.Debug|x64.Build.0 = Debug|x64
+		{32985C55-D4C9-4737-965C-28350EE34354}.Debug|x86.ActiveCfg = Debug|Win32
+		{32985C55-D4C9-4737-965C-28350EE34354}.Debug|x86.Build.0 = Debug|Win32
+		{32985C55-D4C9-4737-965C-28350EE34354}.Release|x64.ActiveCfg = Release|x64
+		{32985C55-D4C9-4737-965C-28350EE34354}.Release|x64.Build.0 = Release|x64
+		{32985C55-D4C9-4737-965C-28350EE34354}.Release|x86.ActiveCfg = Release|Win32
+		{32985C55-D4C9-4737-965C-28350EE34354}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

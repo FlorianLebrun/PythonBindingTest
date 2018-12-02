@@ -18,122 +18,35 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="jit\jit-alloc.c" />
-    <ClCompile Include="jit\jit-apply-arm.c" />
-    <ClCompile Include="jit\jit-apply-x86-64.c" />
-    <ClCompile Include="jit\jit-apply-x86.c" />
-    <ClCompile Include="jit\jit-apply.c" />
-    <ClCompile Include="jit\jit-bitset.c" />
-    <ClCompile Include="jit\jit-block.c" />
-    <ClCompile Include="jit\jit-cfg.c" />
-    <ClCompile Include="jit\jit-compile.c" />
-    <ClCompile Include="jit\jit-context.c" />
-    <ClCompile Include="jit\jit-cpuid-x86.c" />
-    <ClCompile Include="jit\jit-debugger.c" />
-    <ClCompile Include="jit\jit-dump.c" />
-    <ClCompile Include="jit\jit-elf-read.c" />
-    <ClCompile Include="jit\jit-elf-write.c" />
-    <ClCompile Include="jit\jit-except.c" />
-    <ClCompile Include="jit\jit-function.c" />
-    <ClCompile Include="jit\jit-gen-arm.c" />
-    <ClCompile Include="jit\jit-init.c" />
-    <ClCompile Include="jit\jit-insn.c" />
-    <ClCompile Include="jit\jit-interp-opcode.c" />
-    <ClCompile Include="jit\jit-interp.c" />
-    <ClCompile Include="jit\jit-intrinsic.c" />
-    <ClCompile Include="jit\jit-live.c" />
-    <ClCompile Include="jit\jit-memory-cache.c" />
-    <ClCompile Include="jit\jit-memory.c" />
-    <ClCompile Include="jit\jit-meta.c" />
-    <ClCompile Include="jit\jit-objmodel.c" />
-    <ClCompile Include="jit\jit-opcode-apply.c" />
-    <ClCompile Include="jit\jit-opcode.c" />
-    <ClCompile Include="jit\jit-pool.c" />
-    <ClCompile Include="jit\jit-reg-alloc.c" />
-    <ClCompile Include="jit\jit-reg-class.c" />
-    <ClCompile Include="jit\jit-rules-arm.c" />
-    <ClCompile Include="jit\jit-rules-interp.c" />
-    <ClCompile Include="jit\jit-rules-x86-64.c" />
-    <ClCompile Include="jit\jit-rules-x86.c" />
-    <ClCompile Include="jit\jit-rules.c" />
-    <ClCompile Include="jit\jit-signal.c" />
-    <ClCompile Include="jit\jit-symbol.c" />
-    <ClCompile Include="jit\jit-thread.c" />
-    <ClCompile Include="jit\jit-type.c" />
-    <ClCompile Include="jit\jit-unwind.c" />
-    <ClCompile Include="jit\jit-util.c" />
-    <ClCompile Include="jit\jit-value.c" />
-    <ClCompile Include="jit\jit-varint.c" />
-    <ClCompile Include="jit\jit-vmem.c" />
-    <ClCompile Include="jit\jit-walk.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="jit\jit-apply-arm.h" />
-    <ClInclude Include="jit\jit-apply-func.h" />
-    <ClInclude Include="jit\jit-apply-rules.h" />
-    <ClInclude Include="jit\jit-apply-x86-64.h" />
-    <ClInclude Include="jit\jit-apply-x86.h" />
-    <ClInclude Include="jit\jit-bitset.h" />
-    <ClInclude Include="jit\jit-cfg.h" />
-    <ClInclude Include="jit\jit-config.h" />
-    <ClInclude Include="jit\jit-cpuid-x86.h" />
-    <ClInclude Include="jit\jit-elf-defs.h" />
-    <ClInclude Include="jit\jit-gen-arm.h" />
-    <ClInclude Include="jit\jit-gen-x86-64.h" />
-    <ClInclude Include="jit\jit-gen-x86.h" />
-    <ClInclude Include="jit\jit-internal.h" />
-    <ClInclude Include="jit\jit-interp-labels.h" />
-    <ClInclude Include="jit\jit-interp-opcode.h" />
-    <ClInclude Include="jit\jit-interp.h" />
-    <ClInclude Include="jit\jit-reg-alloc.h" />
-    <ClInclude Include="jit\jit-reg-class.h" />
-    <ClInclude Include="jit\jit-rules-arm.h" />
-    <ClInclude Include="jit\jit-rules-interp.h" />
-    <ClInclude Include="jit\jit-rules-x86-64.h" />
-    <ClInclude Include="jit\jit-rules-x86.h" />
-    <ClInclude Include="jit\jit-rules.h" />
-    <ClInclude Include="jit\jit-setjmp.h" />
-    <ClInclude Include="jit\jit-thread.h" />
-    <ClInclude Include="jit\jit-varint.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="jit\jit-rules-arm.inc" />
-    <None Include="jit\jit-rules-arm.ins" />
-    <None Include="jit\jit-rules-x86-64.inc" />
-    <None Include="jit\jit-rules-x86-64.ins" />
-    <None Include="jit\jit-rules-x86.inc" />
-    <None Include="jit\jit-rules-x86.ins" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{32985C55-D4C9-4737-965C-28350EE34354}</ProjectGuid>
+    <ProjectGuid>{E2F7095B-E2FC-488B-AE45-7F313CC79C2D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>libjit</RootNamespace>
+    <RootNamespace>python_toy</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -157,59 +70,65 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <IncludePath>C:/Python37/include;$(SolutionDir)libjit/include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>C:\Python37\libs;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:/Python37/include;$(SolutionDir)libjit/include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>C:\Python37\libs;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(ProjectDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <IncludePath>C:/Python37/include;$(SolutionDir)libjit/include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>C:\Python37\libs;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(ProjectDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <IncludePath>C:/Python37/include;$(SolutionDir)libjit/include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>C:\Python37\libs;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <ClCompile>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level1</WarningLevel>
-      <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-    </ClCompile>
-    <Link>
-      <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-    </Link>
-  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level1</WarningLevel>
+      <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;PYTHON_TOY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)test/$(TargetName)_d.pyd</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;PYTHON_TOY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)test/$(TargetName)_d.pyd</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level1</WarningLevel>
+      <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;PYTHON_TOY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -217,17 +136,18 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)test/$(TargetName).pyd</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <WarningLevel>Level1</WarningLevel>
+      <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;PYTHON_TOY_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -235,9 +155,19 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)test/$(TargetName).pyd</OutputFile>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="python_toy.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libjit\libjit.vcxproj">
+      <Project>{32985C55-D4C9-4737-965C-28350EE34354}</Project>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

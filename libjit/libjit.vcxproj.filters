@@ -1,370 +1,257 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="jit">
+      <UniqueIdentifier>{84975d62-79f1-4d07-945e-253d7d6e5246}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="jit\jit-alloc.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-apply.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-apply-arm.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-apply-x86.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-apply-x86-64.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-bitset.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-block.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-cfg.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-compile.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-context.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-cpuid-x86.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-debugger.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-dump.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-elf-read.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-elf-write.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-except.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-function.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-gen-arm.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-init.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-insn.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-interp.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-interp-opcode.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-intrinsic.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-live.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-memory.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-memory-cache.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-meta.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-objmodel.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-opcode.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-opcode-apply.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-pool.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-reg-alloc.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-reg-class.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-rules.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-rules-arm.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-rules-interp.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-rules-x86.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-rules-x86-64.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-signal.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-symbol.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-thread.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-type.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-unwind.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-util.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-value.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-varint.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-vmem.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
     <ClCompile Include="jit\jit-walk.c">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="include">
-      <UniqueIdentifier>{a37235d0-17a9-49d0-ac5f-b735e1993a40}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{1ffacbba-1440-439e-9e6c-fb83d3201a1a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include\jit">
-      <UniqueIdentifier>{fd9be40f-39a8-4328-86aa-9eb3d34eab72}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="include\jit\jit-defs.h.in">
-      <Filter>include\jit</Filter>
-    </None>
-    <None Include="jit\jit-rules-arm.inc">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\jit-rules-arm.ins">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\jit-rules-x86.inc">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\jit-rules-x86.ins">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\jit-rules-x86-64.inc">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\jit-rules-x86-64.ins">
-      <Filter>src</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="include\jit\jit.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-apply.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-arch-arm.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-arch-generic.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-arch-x86.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-arch-x86-64.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-block.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-common.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-context.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-debugger.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-dump.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-dynamic.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-elf.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-except.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-function.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-init.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-insn.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-intrinsic.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-memory.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-meta.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-objmodel.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-objmodel-private.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-opcode-compat.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-plus.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-type.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-unwind.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-util.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-value.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-vmem.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-walk.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\config.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-defs.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="config.h" />
-    <ClInclude Include="include\jit\jit-arch.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="include\jit\jit-opcode.h">
-      <Filter>include\jit</Filter>
-    </ClInclude>
     <ClInclude Include="jit\jit-apply-arm.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-apply-func.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-apply-rules.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-apply-x86.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-apply-x86-64.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-bitset.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-cfg.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-config.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-cpuid-x86.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-elf-defs.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-gen-arm.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-gen-x86.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-gen-x86-64.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-internal.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-interp.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-interp-labels.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-interp-opcode.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-reg-alloc.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-reg-class.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-rules.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-rules-arm.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-rules-interp.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-rules-x86.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-rules-x86-64.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-setjmp.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-thread.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
     <ClInclude Include="jit\jit-varint.h">
-      <Filter>src</Filter>
+      <Filter>jit</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jit\jit-rules-arm.inc">
+      <Filter>jit</Filter>
+    </None>
+    <None Include="jit\jit-rules-arm.ins">
+      <Filter>jit</Filter>
+    </None>
+    <None Include="jit\jit-rules-x86.inc">
+      <Filter>jit</Filter>
+    </None>
+    <None Include="jit\jit-rules-x86.ins">
+      <Filter>jit</Filter>
+    </None>
+    <None Include="jit\jit-rules-x86-64.inc">
+      <Filter>jit</Filter>
+    </None>
+    <None Include="jit\jit-rules-x86-64.ins">
+      <Filter>jit</Filter>
+    </None>
   </ItemGroup>
 </Project>
