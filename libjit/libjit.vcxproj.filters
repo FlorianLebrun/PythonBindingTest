@@ -145,7 +145,7 @@
     <ClCompile Include="jit\jit-walk.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="main.c" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
@@ -159,23 +159,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="include\jit\.gitignore">
-      <Filter>include\jit</Filter>
-    </None>
     <None Include="include\jit\jit-defs.h.in">
       <Filter>include\jit</Filter>
-    </None>
-    <None Include="include\jit\Makefile.am">
-      <Filter>include\jit</Filter>
-    </None>
-    <None Include="include\jit\Makefile">
-      <Filter>include\jit</Filter>
-    </None>
-    <None Include="include\jit\Makefile.in">
-      <Filter>include\jit</Filter>
-    </None>
-    <None Include="jit\.gitignore">
-      <Filter>src</Filter>
     </None>
     <None Include="jit\jit-rules-arm.inc">
       <Filter>src</Filter>
@@ -193,24 +178,6 @@
       <Filter>src</Filter>
     </None>
     <None Include="jit\jit-rules-x86-64.ins">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\libjit.la">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\libjit.pc">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\libjit.pc.in">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\Makefile">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\Makefile.in">
-      <Filter>src</Filter>
-    </None>
-    <None Include="jit\mklabel.sh">
       <Filter>src</Filter>
     </None>
   </ItemGroup>

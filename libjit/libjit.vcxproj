@@ -203,27 +203,16 @@
     <ClCompile Include="jit\jit-varint.c" />
     <ClCompile Include="jit\jit-vmem.c" />
     <ClCompile Include="jit\jit-walk.c" />
-    <ClCompile Include="main.c" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="include\jit\.gitignore" />
     <None Include="include\jit\jit-defs.h.in" />
-    <None Include="include\jit\Makefile" />
-    <None Include="include\jit\Makefile.am" />
-    <None Include="include\jit\Makefile.in" />
-    <None Include="jit\.gitignore" />
     <None Include="jit\jit-rules-arm.inc" />
     <None Include="jit\jit-rules-arm.ins" />
     <None Include="jit\jit-rules-x86-64.inc" />
     <None Include="jit\jit-rules-x86-64.ins" />
     <None Include="jit\jit-rules-x86.inc" />
     <None Include="jit\jit-rules-x86.ins" />
-    <None Include="jit\libjit.la" />
-    <None Include="jit\libjit.pc" />
-    <None Include="jit\libjit.pc.in" />
-    <None Include="jit\Makefile" />
-    <None Include="jit\Makefile.in" />
-    <None Include="jit\mklabel.sh" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h" />
