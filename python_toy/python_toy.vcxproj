@@ -159,8 +159,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="python_toy.cpp" />
+    <ClCompile Include="PyNativeCallBuilder.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
@@ -169,5 +169,8 @@
     <ProjectReference Include="..\libjit\libjit.vcxproj">
       <Project>{32985C55-D4C9-4737-965C-28350EE34354}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PyNativeCallBuilder.h" />
   </ItemGroup>
 </Project>

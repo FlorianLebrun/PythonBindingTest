@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7776cd00-d6cd-453a-afef-37d7be40509e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../libjit-test/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../libjit-test/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../libjit-test/pch.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../libjit-test/pch.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../libjit/libjit.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../libjit/libjit.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../libjit/libjit.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../libjit/libjit.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../libjit/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../libjit/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python_toy/python_toy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../python_toy/python_toy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_toy/python_toy.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/../python_toy/python_toy.vcxproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_toy/python_toy.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../python_toy/python_toy.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_toy/python_toy.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../python_toy/python_toy.vcxproj.filters" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -36,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="28696">
               <caret line="1688" selection-start-line="1688" selection-end-line="1688" />
             </state>
           </provider>
@@ -64,7 +56,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="227" />
+    <option name="x" value="226" />
     <option name="y" value="135" />
     <option name="width" value="1380" />
     <option name="height" value="810" />
@@ -151,7 +143,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -183,9 +175,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="28696">
           <caret line="1688" selection-start-line="1688" selection-end-line="1688" />
         </state>
       </provider>
@@ -194,16 +193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
