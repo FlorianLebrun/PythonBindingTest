@@ -150,6 +150,7 @@
     <ClCompile Include="jit\jit-walk.c">
       <Filter>jit</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="jit\jit-apply-arm.h">
